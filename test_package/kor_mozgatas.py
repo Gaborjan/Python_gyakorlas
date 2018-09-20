@@ -21,7 +21,7 @@ def mozdit_le():
 
 def kor_novel():
     global kormeret
-    if kormeret<200: 
+    if kormeret<250: 
         kormeret=kormeret+10
         can1.coords(oval1,x1,y1,x1+kormeret,y1+kormeret)
         
