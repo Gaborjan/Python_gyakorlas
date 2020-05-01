@@ -1,5 +1,5 @@
 import sys 
-print("Hello World!")
+print("Ütvefúrótükörfúrógép")
 print(sys.version)
 print(sys.version_info)
 
