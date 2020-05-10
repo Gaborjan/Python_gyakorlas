@@ -1,0 +1,6 @@
+#database files
+*.sqlite
+#jpg files
+*.jpg
+#Excel csv files
+*.csv
