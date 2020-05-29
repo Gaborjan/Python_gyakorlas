@@ -11,7 +11,7 @@ MAX_COLUMN=800
 def drawline():
     "Vonal rajzolása a can1 canvascra "
     global x1,y1,x2,y2, color
-    
+         
     #A koordináták módosítása a következő egyenes számára
     x1=randrange(MAX_COLUMN+1)
     y1=randrange(MAX_ROW+1)
@@ -24,8 +24,8 @@ def drawline():
     label3.configure(text="x2: "+"{0:03d}".format(x2))
     label4.configure(text="y2: "+"{0:03d}".format(y2))
     
-    can1.create_line(x2,y2,x1,y1,width=2,fill=color) # x1 oszlop, y1 sor és x2 oszlop y2 sor közé
-
+    #can1.create_line(x2,y2,x1,y1,width=2,fill=color) # x1 oszlop, y1 sor és x2 oszlop y2 sor közé
+    can1.create_rectangle(x2,y2,x1,y1,width=2,fill=color)
     
 def changecolor():
     "A rajz színének véletlenszerű megváltoztatása"
