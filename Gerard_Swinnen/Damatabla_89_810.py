@@ -3,7 +3,7 @@ from random import randrange
 
 MAX_WIDTH=800
 MAX_HEIGH=800
-KOCKA_OLDAL=5                                   #A négyzet oldalának hossza
+KOCKA_OLDAL=80                      #A négyzet oldalának hossza
 OSZLOP=int(MAX_WIDTH/KOCKA_OLDAL)                #Tábla oszlopainak száma
 SOR=int(MAX_HEIGH/KOCKA_OLDAL)                   #Tábla sorainak száma
 SZIN1="red"             #Tábla egyik színe

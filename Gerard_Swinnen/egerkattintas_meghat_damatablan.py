@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import colorchooser
 from random import randrange
-from numpy.core.defchararray import title
+#from numpy.core.defchararray import title
 from test import test_sort
 
 MAX_WIDTH=800
